@@ -1,0 +1,29 @@
+The V8 Javascript engine compile your code before it runs it.
+
+Scope: where to look for things (i.e. where to look for variables)
+
+  - Scope is part of the compile-time process
+
+  - If you do variable shadowing, it means u can't access the variable scope above
+
+undefined: is when a variable or function is declared in some scope but there is no assigned value for it.
+While undeclared is when a variable or a function is not found in any scope.
+
+Lexical scope always go search for undeclared indetifiers in an upper level scope until it gets to the global scope.
+Then it stops.
+
+Named function expression is usally preferred than anonymous function expression. Why?
+
+1- provide a handy way of self-referencing from inside the fucntion itself which is useful in recursion cases.
+
+2- Make your code more debuggable. Since the name of the function will appear in the stack trace. So u can easily locate the
+errored function.
+
+
+
+
+Hoisting:
+
+
+
+Closure: One of the most important things innvented in CS.
